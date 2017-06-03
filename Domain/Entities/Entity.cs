@@ -1,4 +1,4 @@
-﻿namespace Hqv.Core.Domain.Entities
+﻿namespace Domain.Entities
 {
     /// <summary>
     /// todo: Add entities 

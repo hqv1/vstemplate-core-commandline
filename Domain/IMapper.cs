@@ -1,4 +1,4 @@
-﻿namespace Hqv.Core.Domain
+﻿namespace Domain
 {
     /// <summary>
     /// Map using Automapper (http://automapper.org/)

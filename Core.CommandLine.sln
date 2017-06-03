@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hqv.Core.Domain", "Hqv.Core.Domain\Hqv.Core.Domain.csproj", "{6D577684-BF36-43F2-8763-80E3B9B52E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{6D577684-BF36-43F2-8763-80E3B9B52E58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hqv.Core.Data", "Hqv.Core.Data\Hqv.Core.Data.csproj", "{2CA0812C-C55F-461A-8984-BCA08DC1EF63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{2CA0812C-C55F-461A-8984-BCA08DC1EF63}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hqv.Core.CommandLine", "Hqv.Core.CommandLine\Hqv.Core.CommandLine.csproj", "{4176D567-2009-4429-BFB6-EF29C752E02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLine", "CommandLine\CommandLine.csproj", "{4176D567-2009-4429-BFB6-EF29C752E02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

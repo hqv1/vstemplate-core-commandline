@@ -1,11 +1,9 @@
 ﻿using System;
 using Autofac;
-using CommandLine;
-using Hqv.Core.Domain;
 using Microsoft.Extensions.Configuration;
 using NLog;
 
-namespace Hqv.Core.CommandLine
+namespace CommandLine
 {
     internal class Program
     {

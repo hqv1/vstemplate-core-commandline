@@ -1,7 +1,7 @@
 using AutoMapper;
 using IMapper = AutoMapper.IMapper;
 
-namespace Hqv.Core.CommandLine
+namespace CommandLine
 {
     public class Mapper : Domain.IMapper
     {

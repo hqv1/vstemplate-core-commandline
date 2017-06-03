@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Hqv.Core.Domain
+namespace Domain
 {
     public interface IDbRepository
     {

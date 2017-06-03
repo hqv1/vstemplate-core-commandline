@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
-    <RootNamespace>Hqv.Core.Domain</RootNamespace>
-    <AssemblyName>Hqv.Core.Domain</AssemblyName>
+    <RootNamespace>Domain</RootNamespace>
+    <AssemblyName>Domain</AssemblyName>
   </PropertyGroup>
 
 </Project>

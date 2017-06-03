@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
-using Hqv.Core.Domain;
 
-namespace Hqv.Core.Data
+namespace Data
 {
     public class DbRepository : IDbRepository
     {
