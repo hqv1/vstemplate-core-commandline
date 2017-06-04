@@ -15,7 +15,7 @@
 	<CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Hqv.Core.Data.csproj" File="Hqv.Core.Data.csproj" ReplaceParameters="true">
+    <Project TargetFileName="Data.csproj" File="Data.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="DbRepository.cs">DbRepository.cs</ProjectItem>
     </Project>
   </TemplateContent>
