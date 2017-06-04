@@ -1,7 +1,7 @@
 ﻿using System;
 using Autofac;
 using CommandLine;
-using Hqv.Core.Domain;
+using Domain;
 using Microsoft.Extensions.Configuration;
 using NLog;
 

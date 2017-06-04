@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
-using Hqv.Core.Domain;
+using Domain;
 
 namespace $safeprojectname$
 {
