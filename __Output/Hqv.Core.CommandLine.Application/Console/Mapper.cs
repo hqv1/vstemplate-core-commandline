@@ -3,7 +3,7 @@ using IMapper = AutoMapper.IMapper;
 
 namespace $safeprojectname$
 {
-    public class Mapper : Domain.IMapper
+    public class Mapper : Hqv.CSharp.Common.Map.IMapper
     {
         private readonly MapperConfiguration _mapperConfiguration;
         private readonly IMapper _mapper;

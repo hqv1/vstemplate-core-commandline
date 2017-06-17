@@ -1,9 +1,9 @@
 using AutoMapper;
 using IMapper = AutoMapper.IMapper;
 
-namespace CommandLine
+namespace Console
 {
-    public class Mapper : Domain.IMapper
+    public class Mapper : Hqv.CSharp.Common.Map.IMapper
     {
         private readonly MapperConfiguration _mapperConfiguration;
         private readonly IMapper _mapper;

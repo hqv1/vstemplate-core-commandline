@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Data.SqlClient;
+using System.$safeprojectname$.SqlClient;
 using System.Threading.Tasks;
 using Domain;
 

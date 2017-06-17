@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Hqv.Core.CommandLine</Name>
-    <Description>Create a command line project in .NET core</Description>
+    <Name>Console</Name>
+    <Description>Create a console project in .NET core</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Hqv.Core.CommandLine</DefaultName>
+    <DefaultName>Console</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -15,8 +15,15 @@
 	<CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="CommandLine.csproj" File="CommandLine.csproj" ReplaceParameters="false">
+    <Project TargetFileName="Console.csproj" File="Console.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="Actors" TargetFolderName="Actors">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SayHelloActor.cs">SayHelloActor.cs</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IActor.cs">IActor.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Mapper.cs">Mapper.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="nlog.config">nlog.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Options.cs">Options.cs</ProjectItem>

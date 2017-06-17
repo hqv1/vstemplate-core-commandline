@@ -1,4 +1,6 @@
-﻿namespace CommandLine
+﻿using CommandLine;
+
+namespace Console
 {
     /// <summary>
     /// Used by command line library (https://github.com/gsscoder/commandline).
@@ -7,5 +9,7 @@
     /// </summary>
     internal class Options
     {
+        [Option('h', "say-hello", Required = false, HelpText = "Say Hello")]
+        public bool ShouldSayHello { get; set; }
     }
 }

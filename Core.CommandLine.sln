@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{2CA0812C-C55F-461A-8984-BCA08DC1EF63}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLine", "CommandLine\CommandLine.csproj", "{4176D567-2009-4429-BFB6-EF29C752E02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "CommandLine\Console.csproj", "{4176D567-2009-4429-BFB6-EF29C752E02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

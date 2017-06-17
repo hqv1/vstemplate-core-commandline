@@ -18,7 +18,7 @@
     <ProjectCollection>
       <ProjectTemplateLink ProjectName="Domain">Domain\MyTemplate.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="Data">Data\MyTemplate.vstemplate</ProjectTemplateLink>
-	  <ProjectTemplateLink ProjectName="CommandLine">CommandLine\MyTemplate.vstemplate</ProjectTemplateLink>
+	  <ProjectTemplateLink ProjectName="Console">Console\MyTemplate.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>

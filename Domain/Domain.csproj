@@ -6,4 +6,8 @@
     <AssemblyName>Domain</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Hqv.CSharp.Common" Version="0.0.5" />
+  </ItemGroup>
+
 </Project>
